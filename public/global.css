@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Bowlby+One+SC");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Roboto+Mono:500&display=swap");
+
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+  color: rgba(0, 230, 255, 1);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgba(0, 230, 255, 1);
+}
+
+label {
+  display: block;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0.4em;
+  margin: 0 0 0.5em 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+input:disabled {
+  color: #ccc;
+}
+
+input[type="range"] {
+  height: 0;
+}
+
+button {
+  color: #333;
+  background-color: #f4f4f4;
+  outline: none;
+}
+
+button:active {
+  background-color: #ddd;
+}
+
+button:focus {
+  border-color: #666;
+}
+
+/* CUSTOM */
+
+.main {
+  margin: 4vh;
+}
+
+.brand {
+  color: rgba(0, 230, 255, 1);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 1.5rem auto 0.5rem;
+  /* padding-bottom: 0; */
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
